@@ -20,8 +20,7 @@ function mailTo($sender_name , $sender_email , $sender_subject,$sender_message )
 
     $mail->setFrom('phpmailto@gmail.com', $sender_name);
     //$mail->addAddress('joe@example.net', 'Joe User');     // Add a recipient
-    $mail->addAddress('en_metourni@esi.dz');               // Name is optional
-    $mail->addCC('gy_drif@esi.dz');
+    $mail->addAddress('tresordelesi@esi.dz');               // Name is optional
     //$mail->addReplyTo('info@example.com', 'Information');
     // $mail->addCC('cc@example.com');
     // $mail->addBCC('bcc@example.com');
